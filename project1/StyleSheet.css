@@ -137,7 +137,7 @@ text-align: center;
   margin: 10%;
   margin-bottom: 11%;
 }
-.box > div > img {
+.box > div > a> img {
   margin-bottom: -4px;
 }
 .box3{
@@ -165,7 +165,7 @@ text-align: center;
   margin-left: 18%;
   margin-right: 18%;
 }
-.box3 > div > img {
+.box3 > div > a > img {
   margin-bottom: -4px;
   height:330px;
 }
