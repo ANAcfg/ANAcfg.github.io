@@ -59,14 +59,14 @@
   right: 24.7%;
   transform: rotate(270deg);
   transform-origin: left center;
-  animation: rotateMin 10s 2s forwards;
+  animation: rotateMin 10s 2s forwards linear;
 }
 .hour{
   /* background-color: blue; */
   bottom: 41%;
   right: 15%;
   transform-origin: left center;
-  animation: rotateHour 10s 2s forwards;
+  animation: rotateHour 10s 2s forwards linear;
 }
 @keyframes rotateMin {
   0%{
