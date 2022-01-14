@@ -1,0 +1,108 @@
+.part1{
+  background-image: url(nyc.jpeg);
+  background-size: 100% 100%;
+  width: 50%;
+  height: 400px;
+
+  margin-left: 25%;
+  position: relative;
+
+}
+.box{
+  position:absolute;
+  bottom:20px;
+  right: 20px;
+  background-color: gray;
+  opacity: 0.8;
+  width: 50%;
+  /* display: flex; */
+}
+.boxes{
+  text-align: center;
+}
+.box1{
+  color: white;
+}
+.clock{
+  margin-top: 40px;
+  margin-left: 25%;
+  background-color: pink;
+  width: 50%;
+  position: relative;
+}
+.clock img{
+  width: 100%;
+  height: 100%;
+}
+.min,.hour{
+  position: absolute;
+  width: 35%;
+  /* top: 0%; */
+  /* right:0%; */
+  /* left: 0%; */
+  /* bottom: 0%; */
+
+}
+.min img {
+  width: 100%;
+  height: 100%;
+}
+.hour img{
+  width: 100%;
+  height: 100%;
+}
+.min{
+  /* background-color: red; */
+  width: 25%;
+  height: 10%;
+  bottom: 45.5%;
+  right: 24.7%;
+  transform: rotate(270deg);
+  transform-origin: left center;
+  animation: rotateMin 10s 2s forwards;
+}
+.hour{
+  /* background-color: blue; */
+  bottom: 41%;
+  right: 15%;
+  transform-origin: left center;
+  animation: rotateHour 10s 2s forwards;
+}
+@keyframes rotateMin {
+  0%{
+    transform: rotate(270deg);
+  }
+  /* }
+  25%{
+    transform: rotate(360deg)
+  }
+  50%{
+    transform: rotate(450deg);
+  }
+  75%{
+    transform: rotate(540deg)
+  } */
+
+  100%{
+    transform: rotate(630deg);
+  }
+}
+@keyframes rotateHour {
+  0%{
+    transform: rotate(0deg);
+  }
+  /* }
+  25%{
+    transform: rotate(7.5deg)
+  }
+  50%{
+    transform: rotate(15deg);
+  }
+  75%{
+    transform: rotate(22.5deg)
+  } */
+  100%{
+    transform: rotate(30deg);
+
+  }
+}
