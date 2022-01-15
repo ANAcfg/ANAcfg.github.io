@@ -48,6 +48,7 @@ tr
   height: 50%;
 }
 .nycbox{
+  display:flex;
   margin-top: 10px;
   text-align: center;
 }
