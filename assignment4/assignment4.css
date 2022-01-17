@@ -1,0 +1,127 @@
+body{
+  background-image:url("images/background.jpeg");
+  background-size: cover;
+}
+.boxx{
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+.box1{
+  background-color: pink;
+  width: 30%;
+  margin-left: 6%;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5vw;
+  text-align: center;
+  padding-bottom: 5%;
+
+}
+.box1 > div > img{
+  width: 100%;
+  height: 100%;
+}
+.box1 div{
+  margin-top: 15%;
+  margin-left: 15%;
+  width: 70%;
+  height: 60%;
+}
+.box1 p{
+  margin-bottom: 10%;
+}
+.cusbtn{
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  padding: 5%;
+  border-radius: 5px;
+}
+.mdl2{
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+
+}
+.md12design1{background-color: rgba(0, 0, 255, 0.7);}
+.md12design2{background-color: rgba(0, 255, 0, 0.7);}
+.mdl2:target{
+  opacity: 1;
+  pointer-events: all;
+
+}
+.btn {
+  background-color: orange;
+  text-decoration: none;
+  border: 2px solid purple;
+  border-radius: 4px;
+  padding: 4%;
+}
+.msgblock{
+
+  width: 500px;
+  height: 500px;
+  margin:auto;
+  margin-top: 10%;
+
+  box-sizing: border-box;
+}
+.msgblockdesign1{
+  background-color: orange;
+}
+.msgblockdesign2{
+  background-color: lightblue;
+}
+
+.msgbody{
+  width: 300px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+.msgbody img{
+  width: 100%;
+  height: 100%;
+}
+.msgblock p{
+ text-align: center;
+ background-color: pink;
+ width: 80%;
+ margin-left: 6%;
+ padding: 4%;
+}
+.title{
+  background-color: pink;
+  color:white;
+
+
+
+}
+.title h1{
+
+
+}
+
+.close{
+  position: fixed;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  margin-left:470px;
+  margin-top: -50px;
+
+  text-align: center;
+
+
+}
