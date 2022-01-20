@@ -1,0 +1,369 @@
+body{
+  background-color: pink;
+}
+.logo1{
+  border: 3px solid green;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin-right:5%;
+  margin-left: 20px;
+  animation: logoanima 2s infinite;
+}
+@keyframes logoanima {
+  0%{transform: scale(0);}
+  100%{transform: scale(1);}
+}
+.logo1 img{
+  width: 100%;
+  height: 100%;
+
+}
+.box1{
+  display: flex;
+}
+.title{
+  overflow: hidden;
+  height: 100px;
+}
+.title h1{
+  overflow: hidden;
+  height: 72px;
+  font-family:"Lucida Handwriting", "Brush Script MT", cursive;
+  color: green;
+  font-size: 60px;
+  margin-top: -2px;
+  position: relative;
+  animation: bigtitle 4s linear infinite;
+
+}
+@keyframes bigtitle {
+  0%{top:-10px;}
+  50%{top: 35px;}
+  100%{top: -10px;}
+}
+.title h3{
+  margin-top: -35px;
+  position: relative;
+  animation: smalltitle 4s linear infinite;
+}
+@keyframes smalltitle {
+  0%{top:5px;}
+  50%{top: -80px;}
+  100%{top:5px }
+}
+.stage{
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+}
+.slidegroup{
+  width: 300%;
+  height: 40px;
+  animation: slideani 15s linear infinite;
+}
+.slide{
+  height: 40px;
+  width:33.333%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+.slide > p > span{
+  font-weight: bold;
+}
+.s1{
+  background-color: #ff1493;
+}
+.s2{
+  background-color: #fdbcb4;
+}
+.s3{
+  background-color: #fddde6;
+}
+
+@keyframes slideani {
+  0%{margin-left:0%}
+  5%{margin-left: 0%}
+  50%{margin-left: -200%}
+  55%{margin-left: -200%}
+  100%{margin-left: 0%}
+
+}
+.subbox2{
+  background-image: url(images/intro_img2.jpeg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.box2{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: green;
+}
+.textbox{
+  background-color: grey;
+  width: 40%;
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+  overflow: hidden;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 1.4vw;
+}
+.textbox p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.box3{
+  height: 450px;
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  border: 2px solid white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sub1box3{
+ width: 40%;
+ background-image: linear-gradient(to bottom,rgba(245,246, 252, 0.52),rgba(117, 19, 93, 0.73)), url(images/intro_img1.jpeg);
+ background-size: 100% 100%;
+ margin-left: 5%;
+ margin-top: 5%;
+ margin-bottom: 5%;
+}
+.sub1box3Textbox{
+  opacity: .73;
+  margin-top: 20px;
+  margin-left: 5%;
+  height: 25%;
+  width: 45%;
+  border: 2px solid yellow;
+  color: white;
+  font-size: 1.5vh;
+  overflow: hidden;
+  padding-left: 2%;
+}
+.sub2box3{
+  margin-left: 10%;
+  background-image: linear-gradient(to bottom left,rgba(255,192, 203, 0.73),rgba(255, 255, 255, 0.73));
+  width: 40%;
+  border: 2px solid white;
+  box-sizing: border-box;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  overflow: hidden;
+  color: darkgreen;
+}
+.box4{
+  height: 80%;
+  display: flex;
+}
+.subbox4{
+  width: 33.33%;
+  height: 100%;
+}
+.imgbox{
+width:70%;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 10%;
+}
+.imgbox img{
+  height: 100%;
+  weight:100%;
+}
+.textbox2{
+  margin-top: -5%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 10%;
+  overflow: hidden;
+}
+.textbox2 h4{
+  color:green;
+  height: 36px;
+}
+.textbox2 h3{
+  margin-top: -22px;
+  height: 45px;
+}
+
+.textbox2 span{
+  font-style: italic;
+}
+.button1{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+}
+.itemHide{
+  display: none;
+  background-color: #F5F5F5;
+   padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  color: black;
+ }
+.button1:hover + .itemHide {
+  display: block;
+  margin-top: -68px;
+  width: 150px;
+  margin-left: 9%;
+  position: absolute;
+  overflow: hidden;
+
+}
+.button1:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.hide {
+  display: none;
+}
+
+.btbsBox{
+  background-color: purple;
+  width: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.Productbox{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+.mainTextbox4 h2{
+  margin-left: 5%;
+  margin-bottom: 0%;
+}
+.mdl{
+  background-color: rgba(255, 255, 0, 0.4);
+  position: fixed;
+  width: 100%;
+  pointer-events: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.mdl:target{
+  opacity: 1;
+  pointer-events: all;
+
+}
+.msgblock{
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+}
+.msgFlexBox{
+  display: flex;
+}
+.msgbody{
+  background-color: lightgray;
+  width: 525px;
+  padding-left: 30px;
+  padding-right: 45px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+.msgbody hr{
+  color: white;
+  background-color: white;
+  border-color: white;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+.msgtitle{
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 15px;
+  width: 530px;
+}
+.msgtitle p{
+  margin-bottom: -5px;
+}
+.FlexBoxImg img{
+  width: 100%;
+  height:100%;
+}
+.FlexBoxImg{
+  width: 250px;
+}
+.btnClose{
+  background-color: lightgray;
+  width: 30px;
+  text-align: center;
+  height:30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+
+}
+.msgtext h4{
+  font-weight: normal;
+}
+.msgtext p{
+  font-size: 20px;
+}
+.msgTextMin{
+  margin-top: 60px;
+}
+.btnShop{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 6px;
+}
+.endBox{
+  background-color: black;
+  overflow: hidden;
+
+  height: 500px;
+}
+.subEndBox{
+  color: white;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+.flexBox{
+display: flex;
+margin-top: 20px;
+}
+.subEndBox2{
+  margin-top: 50px;
+  width: 400px;
+  height: 130px;
+  color: white;
+  font-size: 1.0vw;
+  float: right;
+  width: 30%;
+}
+.flexBox > a > img{
+  width: 100%;
+  height: 100%;
+}
+.nameBox{
+  color:white;
+  /* width: 100px;
+  height: 100px; */
+  margin-top: 320px;
+  text-align: center;
+  font-size: 1.4vw;
+}
