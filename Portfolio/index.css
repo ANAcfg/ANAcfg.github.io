@@ -1,0 +1,43 @@
+body{
+    background-image: url("background_photo.jpeg");
+    background-size: 100%;
+    backdrop-filter: blur(2px);
+    
+}
+.title{
+    text-align: center;
+    color: pink;
+	font-size: 50px;
+	-webkit-text-stroke: 1px #23430C;
+	text-shadow: -1px 1px 2px #23430C,
+				  1px 1px 2px #23430C,
+				  1px -1px 0 #23430C,
+				  -1px -1px 0 #23430C;
+}
+.Intro{
+    background-color: #CDFFFF;
+    height: 80px;
+    width: 50%;
+    margin-left: 23%;
+    margin-right: 23%;;
+    margin-top: 2%;
+    text-align: center;
+    opacity: .6;
+
+
+}
+.Intro p {
+    opacity: 1;
+    color: black;
+
+}
+/* .InfoBox{
+    background-color:lightpink;
+    background-size: 100% 100%;
+    width: 70vw;
+    height: 90vh;
+    margin-left: 15%;
+    padding-top: 2%;
+    border: 2px solid black;
+    border-radius: 25px;
+} */
